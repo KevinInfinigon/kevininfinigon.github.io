@@ -1,0 +1,149 @@
+/* global */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #5C7A6C;
+}
+
+#top_navigation {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#top_image {
+    font-size: 0px;
+}
+
+#top_image img {
+    width: 1000px;
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    background-color: #FFFCE8;
+}
+
+nav a {
+    line-height: 60px;
+    margin-left: 102px;
+    margin-right: 102px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #496255;
+}
+
+.current_page {
+    color: #496255;
+}
+
+#main_content {
+    height: 620px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #B7C7B6;
+}
+
+h2 {
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #FFFCE8;
+    background-color: #223127;
+}
+
+#main_content_left {
+    float: left;
+    width: 300px;
+    background-color: #B7C7B6;
+}
+
+#main_content_left img {
+    width: 300px;
+}
+
+#main_content_left p {
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+#main_content_right {
+    position: relative;
+    display: inline-block;
+    width: 680px;
+    margin-left: 20px;  
+}
+
+#main_content_right p {
+    display: inline-block;
+    line-height: 40px;
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+#project {
+    width: 1000px;
+    background-color: #B7C7B6;
+}
+
+#project div {
+    font-size: 0px;
+}
+
+#project_image {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#project_image img {
+    height: 210px;
+}
+
+#project_image p {
+    line-height: 60px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#footer {
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #FFFCE8;
+}
+
+/* smarterasor */
+#smart_erasor {
+    position: relative;
+    height: 200px;
+    top: 10px;
+    left: 195px;
+}
+
+#youtube_link {
+    color: #223127;
+}
+
+#youtube_link:hover {
+    color: #496255;
+}
+
+/* seismicwave */
+#seismic_wave {
+    position: relative;
+    height: 200px;
+    top: 10px;
+    left: 190px;
+}

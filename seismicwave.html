@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Kevin's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css"/>
+    </head>
+
+    <body>
+        <div id="top_navigation">
+            <div id="top_image">
+                <img src="images/WHU-6.jpg" alt="Wuhan University - Night">
+            </div>
+
+            <nav>
+                <a href="home.html" tab_index = "0">Home</a>
+                <a href="bio.html" tab_index = "0">Bio</a>
+                <a href="cv.html" tab_index = "0">CV</a>
+                <a href="contacts.html" tab_index = "0">Contacts</a>
+            </nav>
+
+            <div id="main_content">
+                <div id="main_content_left">
+                    <h2>Basic Information</h2>
+                    <img src="images/myphoto.jpg" alt="My Photo">
+                    <p>
+                        <b>Chinese Name: </b>刘 佳禾<br>
+                        <b>English Name: </b>Jiahe Liu (Kevin)<br>
+                        <b>Current Major: </b>Electrical Engineering<br>
+                        <b>Previous Major: </b>Physics<br>
+                    </p>
+                </div>
+
+                <div id="main_content_right">
+                    <h2>Low-Frequency Seismic Wave Extrapolation with Modified U-Net</h2>
+                    <img id="seismic_wave" src="images/marmousi.png" alt="Marmousi Velocity Model">
+                    <p>
+                        <b>Project Description: </b>
+                        In this project, a method for low-frequency seismic wave extrapolation based on a modified U-Net is proposed. 
+                        Based on U-Net, the neural network is deepened and improved by adding residual blocks and a deep supervision 
+                        structure. The artificial seismic records obtained from the forward modeling of seismic wave field of the 
+                        Marmousi velocity model and sub models with PML are used as the source of the training datasets. Taking the 
+                        high-frequency data as samples and the low-frequency data as labels, the obtained final model's performance 
+                        is marked by the average peak signal-to-noise ratio reaching up to 29.86dB for the test set.
+                        <br>
+                    </p>
+                </div>
+            </div>
+
+            <div id="project">
+                <h2>Recent Projects</h2>
+                <div>
+                    <div id="project_image">
+                        <a href="smarterasor.html" tab_index = "0">
+                            <img src="images/smarterasor.jpg" alt="Project - Smart Erasor">
+                        </a>
+                        <p><b>Smart Erasor</b></p>
+                    </div>
+                    <div id="project_image">
+                        <a href="seismicwave.html" tab_index = "0">
+                            <img src="images/seismicwave.jpg" alt="Project - Low-Frequency Seismic Wave Extrapolation with Modified U-Net">
+                        </a>
+                        <p><b>Low-Frequency Seismic Wave Extrapolation with Modified U-Net</b></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer">
+                <p>Last Updated: 2022.12.03</p>
+            </div>
+        </div>
+    </body>
+</html>
